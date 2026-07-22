@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth pages</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-purple-400 to-blue-300 min-h-screen flex items-center justify-center p-4">
+
+    <div class="w-full max-w-sm px-6 py-10 rounded-2xl
+                bg-white/10 backdrop-blur-xl
+                shadow-2xl border border-white/20
+                text-center">
+
+        <h1 class="text-3xl sm:text-4xl font-light mb-3 tracking-wide text-white">
+            Welcome
+        </h1>
+
+        <p class="text-white/70 text-sm sm:text-base mb-10">
+            Sign in to get started
+        </p>
+
+        <div class="space-y-4">
+
+            <a href="login.html">
+                <button class="w-full py-3 rounded-lg text-white
+                    bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500
+                    hover:scale-105 active:scale-95
+                    transition duration-300 shadow-lg">
+                    Login
+                </button>
+            </a>
+
+            <a href="signup.html">
+                <button class="w-full py-3 rounded-lg text-white
+                    bg-white/20 hover:bg-white/30
+                    backdrop-blur-md
+                    transition duration-300
+                    border border-white/30">
+                    Create Account
+                </button>
+            </a>
+
+        </div>
+
+        <div class="flex items-center my-6">
+            <div class="flex-1 h-px bg-white/20"></div>
+            <span class="px-3 text-white/50 text-xs">OR</span>
+            <div class="flex-1 h-px bg-white/20"></div>
+        </div>
+
+        <div class="space-y-2 text-sm">
+
+            <a href="Forgot password.html"
+                class="block text-white/80 underline hover:text-white transition">
+                Forgot Password?
+            </a>
+
+            <a href="Reset password.html"
+                class="block text-white/80 underline hover:text-white transition">
+                Reset Password
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
